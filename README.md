@@ -49,6 +49,17 @@ sudo nix-channel --update
 
 
 
+# Adding the binary cache
+```nix
+# /etc/nixos/configuration.nix
+{
+    nix = {
+        binaryCaches = [ "https://ondt.cachix.org" ];
+		binaryCachePublicKeys = [ "ondt.cachix.org-1:bfVL4zF1qPjwrhAITTRqE7ZHEjNrBkqrb28ffYatMJk=" ];
+    };
+}
+```
+
 
 
 
