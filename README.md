@@ -12,7 +12,7 @@
 - [`nur.repos.ondt.xvisbell`](https://github.com/ondt/xvisbell): Visual Bell for X11
 
 ## Channels
-- `channel:nixos-21.11`
+- `channel:nixos-unstable`
 
 
 
